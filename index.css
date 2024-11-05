@@ -1,0 +1,88 @@
+@font-face {
+    font-family: topeBold;
+    src: url('./assets/fonts/static/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: semi-bold;
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf')
+}
+@font-face {
+    font-family: regular;
+    src: url('./assets/fonts/static/Inter-Regular.ttf')
+}
+
+body{
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction:column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+}
+.container{
+    border-radius: 1rem;
+    padding: 1rem;
+   background-color:hsl(0, 0%, 12%);
+}
+.tio{
+    font-family: topeBold;
+    border-radius: .5rem;
+    padding: .7rem 5rem;
+    box-sizing: border-box;
+    width: 15rem;
+    height: 3%;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+   margin-bottom: .7rem;
+   outline:none;
+   border: none;
+}
+.shif{
+    padding: 0rem 6rem;
+}
+.shift{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.to{
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem; 
+    font-family: semi-bold;
+}
+.go{
+    color: hsl(75, 94%, 57%);
+    font-size:14px ;
+    padding-bottom:1rem;
+    padding-top: 8px;
+    font-family: semi-bold;
+
+}
+.me{
+    color:hsl(0, 0%, 100%);
+    font-size: 14px ;
+    padding-bottom: 1rem;
+    font-family: regular;
+}
+.pi{
+     border-radius:3rem;
+     width: 100px;
+     height: 100px;
+}
+.tik{
+    background-image: url(./assets/images/avatar-jessica.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiooo{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+.attribution { font-size: 11px; text-align: center;
+padding-top: 1rem; }
+.attribution a { color: hsl(228, 45%, 44%);}
